@@ -4,7 +4,7 @@ import Grid from '@mui/material/Grid'
 import { Avatar } from '@mui/material'
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import { TextField } from '@mui/material';
-
+import '../login.scss'
 
 const Login=()=>{
 
@@ -30,7 +30,7 @@ const Login=()=>{
                     }
                     label="Remember me"
                 />
-                <Button type='submit' color='primary' variant='contained' style={btstyle} fullWidth>Sign In</Button>
+                <Button className='button' type='submit'  variant='contained' style={btstyle} fullWidth>Sign In</Button>
                 <Typography>
                     <Link href="#" >
                         Forgot password?
